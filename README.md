@@ -20,7 +20,7 @@
             Contains functions related to file handling
 
         - maze.py :
-            This file contains the Maze class and all its methods such as generation (without breaking walls), converting to text in order to write a file, loading the maze from an existing file
+            This file contains the Maze class and all its methods such as generation, converting to text in order to write a file, loading the maze from an existing file
 
 # The underlying magic !
     The Maze class, upon instantiation, will either take a file name or nothing.
