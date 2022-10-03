@@ -38,7 +38,7 @@
         #.#.#..
         ######.
 
-    When in the acutal class it is stored as a numpy array with 0 for rooms and 1 for walls and is looking like this :
+    When in the actual class it is stored as a numpy array with 0 for rooms and 1 for walls and is looking like this :
 
         .#.#.
         #####

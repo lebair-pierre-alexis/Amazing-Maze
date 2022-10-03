@@ -1,5 +1,4 @@
 import numpy as np
-import time
 import random
 from amazingmaze.common import file
 
@@ -113,12 +112,7 @@ class   Maze():
         return mapText
 
     def mapToFile(self):
-        st = time.time()
-        print("start")
         content = self._mapToText()
-        en = time.time()
-        print("To str in :", en - st, "'s")
-        #print(content)
         file.writeFile(self._fileName, content, "wt")
 
     def printMap(self):
